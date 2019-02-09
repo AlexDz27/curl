@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace AlexDz27\Curl;
 
 class Curl {
   private $ch;

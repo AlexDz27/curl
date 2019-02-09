@@ -2,7 +2,7 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use src\Curl;
+use AlexDz27\Curl\Curl;
 
 $curl = new Curl('http://ya.ru');
 echo $curl->getResponse();
