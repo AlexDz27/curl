@@ -1,3 +1,9 @@
+# Installation
+`composer require alexdz27/curl`
+or
+`composer require alexdz27/curl:dev-master`
+
+
 # Usage
 
 ```
