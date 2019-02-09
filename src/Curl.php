@@ -11,7 +11,7 @@ class Curl {
   public function __construct($url = null, $queryParams = [])
   {
     if ($url !== null) {
-      $this->initCurl($url, $queryParams);
+      $this->setTargetUrl($url, $queryParams);
     }
   }
 
@@ -21,7 +21,7 @@ class Curl {
     return curl_exec($this->ch);
   }
 
-  public function initCurl($url, $queryParams = [])
+  public function setTargetUrl($url, $queryParams = [])
   {
     if (!empty($queryParams)) {
       $url .= '?' . http_build_query($queryParams);
