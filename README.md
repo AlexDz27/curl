@@ -1,3 +1,7 @@
+# DEPRECATED
+Now is 2021-10-21 and I want warn you that this cURL class doesn't have robust API (for example, doesn't have robust API for POST calls).
+Probably, you don't want to use it.
+
 # Installation
 `composer require alexdz27/curl`
 or
